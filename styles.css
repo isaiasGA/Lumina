@@ -17,11 +17,15 @@ section {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   grid-template-columns: 1fr 1fr 1fr 25%;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-areas: 
     "cont1   cont2   cont3   cont3"
+    "cont1   cont2   cont3   cont3"
+    "cont4   cont5   cont6   cont7"
     "cont4   cont5   cont6   cont7"
     "cont8   cont9   cont9   cont7"
+    "cont8   cont9   cont9   cont7"
+    "cont10  cont11  cont12  cont12"
     "cont10  cont11  cont12  cont12"
   ;
 }
@@ -40,10 +44,11 @@ h1 {
 h2 {
   line-height: 32px;
   font-weight: 400;
+  font-size: 1.7em;
 }
 
 h3 {
-  font-size: 0.8em;
+  font-size: 1em;
   color: #9fa3a7;
   line-height: 20px;
   font-weight: 700;
@@ -52,7 +57,7 @@ h3 {
 }
 
 p {
-  font-size: 0.8em;
+  font-size: 1em;
   color: #9fa3a7;
 }
 
@@ -62,9 +67,11 @@ a {
 
 .cont1 {
   grid-area: cont1;
-  padding-left: 9%;
-  padding-top: 2%;
-  padding-bottom: 4%;
+  padding: 0 5%;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  position: relative;
+  top: 42%;
 }
 
 
@@ -73,15 +80,20 @@ a {
 }
 
 .edm-img {
-  width: 87%;
-  padding: 2% 0% 2% 2%;
-  margin-left: 10%;
+  width: 24.7vw;
+  margin-top: 36%;
+  border-radius: 14%;
 }
 
 
 .cont3 {
+  margin-left: 5%;
   grid-area: cont3;
   background-color:#F4F4F4;
+}
+
+.cont3-title {
+  margin-top: 24%;
 }
 
 .hiphop-link {
@@ -92,7 +104,24 @@ a {
 
 .cont4 {
   grid-area: cont4;
-  background-color: red;
+  background-color: #f05638;
+}
+
+.indie-img {
+  width: 91%;
+  margin-left: 4%;
+  margin-top: 17%;
+  border-radius: 50%;
+}
+
+.indie-title {
+  text-align: center;
+  margin-top: 23%;
+}
+
+.link-arrow {
+  color: #ffc80a;
+  margin-left: 41%;
 }
 
 .cont5 {
