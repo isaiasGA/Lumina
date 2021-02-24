@@ -42,6 +42,7 @@ h1 {
   margin-bottom: 0;
 }
 h2 {
+  text-align: center;
   line-height: 32px;
   font-weight: 400;
   font-size: 1.7em;
@@ -80,14 +81,13 @@ a {
 }
 
 .edm-img {
-  width: 24.7vw;
+  width: 23vw;
   margin-top: 36%;
   border-radius: 14%;
 }
 
 
 .cont3 {
-  margin-left: 5%;
   grid-area: cont3;
   background-color:#F4F4F4;
 }
@@ -115,7 +115,6 @@ a {
 }
 
 .indie-title {
-  text-align: center;
   margin-top: 23%;
 }
 
@@ -126,16 +125,83 @@ a {
 
 .cont5 {
   grid-area: cont5;
-  background-color:green;
+}
+
+.pop-img {
+  width: 70.5%;
+  margin: 0px 15%;
+  border-radius: 4%;
 }
 
 .cont6 {
   grid-area: cont6;
-  background-color: yellow;
+  margin-top: 47%;
+  padding: 0 5%;
 }
 
 .cont7 {
   grid-area: cont7;
+  background-color: #8f76bc;
+}
+
+.guitar-container {
+  background-color: hsla(0, 0%, 100%, .08);
+  text-align: center;
+  width: 23%;
+  border-radius: 25px;
+  position: relative;
+  margin-left: 38%;
+  top: 5.5%;
+}
+
+.guitar-title {
+  background-image: url(https://www.clipartmax.com/png/small/162-1627560_guitar-analog-deliciousness-rock-band-guitar-logo.png);
+  background-position: 6px 51%;
+  background-size: 12px;
+  background-repeat: no-repeat;
+}
+
+.rockImg-container {
+  height: 31%;
+  background: #8166b0;
+  border-radius: 55%;
+  margin: 0 3%;
+}
+
+.rock-img {
+  width: 57%;
+  border-radius: 6%;
+  margin: 15% 0 0 22%;
+}
+
+h4, h5, .band-title, .rock-description {
+  color: #fff;
+}
+
+.band-title {
+  margin-bottom: 0;
+  line-height: 20px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: Montserrat, sans-serif;
+  position: relative;
+  margin-left: 44%;
+  bottom: 4.6%;
+}
+
+h5 {
+  position: relative;
+  bottom: 1.5%;
+  font-family: Arvo, sans-serif;
+  text-align: center;
+  font-size: 3em;
+  margin: 0;
+}
+
+.rock-description {
+  padding: 0 9%;
+  text-align: center;
 }
 
 .cont8 {
